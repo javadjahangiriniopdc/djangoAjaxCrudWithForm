@@ -1,3 +1,7 @@
 startapp myapp
 migrate
 createsuperuser
+---------------
+#after add student model
+makemigrations
+migrate
