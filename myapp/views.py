@@ -9,4 +9,4 @@ def home(request):
     form = StudentForm()
     stu = Student.objects.all()
     context = {'form': form, 'stu': stu}
-    return render(request, 'core/home.html', context)
+    return render(request, 'myapp/home.html', context)
